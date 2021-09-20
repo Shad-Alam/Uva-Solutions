@@ -11,7 +11,7 @@ public class Main{
 			int N = input.nextInt();
 			int A = input.nextInt();
 						
-			sum = new BigInteger("0");
+			sum = new BigInteger("0"); 
 			n1 = BigInteger.valueOf(A);
 			for(int i=1; i<=N; i++){
 				sum = sum.add(BigInteger.valueOf(i).multiply(n1.pow(i)));
