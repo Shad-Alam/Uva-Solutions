@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main{
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
+		
 		BigInteger sum,n1;
 		
 		while(input.hasNext()){
